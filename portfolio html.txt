@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="em">
+<head>
+    <meta charset="UTF-8">
+    <meta name="vlewport" content="width-device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icon.css"> <!--boot-strap-->
+    <title>VARSHITHA DEVI  || WELCOME ALL</title>
+</head>
+<body>
+    
+<!--Nav Bar-->
+<nav id="navbar" class="nav">
+    <div class="profile">
+        <div class="top-container">
+              <ul class="nav-bar-items">
+            <li class="under-line text-white list-items"><a href="#home">HOME</a></li>
+            <li class="under-line text-white list-items"><a href="#about-me">ABOUT ME</a></li>
+            <li class="under-line text-white list-items"><a href="#my-skills">MY SKILLS</a></li>
+            <li class="under-line text-white list-items"><a href="#languages">LANGUAGES</a></li>
+            <li class="under-line text-white list-items"><a href="#education">EDUCATION</a></li>
+            <li class="under-line text-white list-items"><a href="#certification">CERTIFICATION</a></li>
+            <li class="under-line text-white list-items"><a href="#contact">CONTACT US</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!--NAV BAR ENDS-->
+
+<!--START WELCOME SECTION-->
+ <section id="1" class="welcome-section">
+  <div class="flex">
+    <h1 class="t1">HELLO...!!!</h1> <br>
+    <h2><spam style="color: blueviolent;">My name is  </span> VARSHITHA DEVI MANGALASETTY</h2><br>
+     <p style="text-align: center ;">and I'm a <b>WEB DESINGER</b></p>   
+    </div>
+    <div>
+          <button class="btn"> MY RESUME</button></a>
+    </div>
+</section>
+<!--END WELCOME SECTION-->
+
+<!--ABOUT ME-->
+<section id="2" class="about">
+<div class="bg-container-2">
+    <h1 class="about-heading">ABOUT</h1><br>
+    <p class="about-content">
+     <p><h4>"Hello, I’m varshitha devi , a recent bachelor of computer applications undergraduating from aditya degree collage for womens,rajahmundry.
+     I’m excited to embark on my professional journey in web developer , where I can apply my skills and passion for web desinger.
+     where I focused on front end developer. During my time at collage,I worked on cetifiaction courses to develop my knowldege such as Mepro pearson, cisco 
+     networking, orcale  which helped me develop a strong foundation in programming languages for front end developer."</p> <br><h4>  
+     <p>
+        mastering foundational skills in HTML, CSS, and JavaScript, which are essential for building and styling web pages. Gaining hands-on
+        experience by creating and deploying simple projects helps solidify these skills. Familiarity with version control systems like Git 
+        and platforms such as GitHub is crucial for effective collaboration and code management. Additionally, learning responsive design
+        principles ensures your projects are accessible on various devices. Exploring basic frontend frameworks like React or Vue.js can 
+        enhance your development capabilities, while understanding basic backend concepts and RESTful APIs rounds out your skill set.
+         Developing strong problem-solving skills, staying updated with industry trends, and preparing a compelling portfolio and resume
+         will significantly boost your readiness for a career in web development.
+
+
+        </p>
+    </div>
+    <h1 class="skills-head"><span style="color:rgb(87, 26, 86)">My</span> Skills</h1>
+    <div class="skill-buttons">
+        <button class="btn btn-dark text-success skill-btn">HTML</button>
+        <button class="btn btn-dark text-success skill-btn">CSS</button>
+        <button class="btn btn-dark text-success skill-btn">SQL</button>
+        <button class="btn btn-dark text-success skill-btn">C</button>
+        <button class="btn btn-dark text-success skill-btn">PYTHON</button>
+    </div>
+    
+<!--END SKILLS-->
+
+
+            <div class="bg-container-3">
+            <h1 class="service-head"><span style="color:rgb(87, 25, 86)">My</span> certification</h1>
+
+            <div class="d-flex flex-row services">
+            <div class="service">
+                <h3 class="m-4">MEPRO PEARSON</h3>
+                <p class="m-4">this courser is about a<br>
+                     pearsonalized english learning<br> 
+                     program that helps students<br>
+                    and professionals improve their<br>
+                     english language skills. <br>
+                    
+                </p>
+                <button class="btn btn-primary m-4">Read More</button>
+            </div>
+
+
+            <div class="service">
+                <h3 class="m-4">CISCO NETWORKING</h3>
+                <p class="m-4">this courser is about to connect<br>
+                    and monitor sevices ,secure and automate<br>
+                     operations, and compute and computer<br>
+                   and cisco stands for commercial and <br>
+                   industry security corporation.<br>
+               </p>
+                <button class="btn btn-primary m-4">Read More</button>
+            </div>
+
+            <div class="service">
+                <h3 class="m-4">ORACLE</h3>
+                <p class="m-4">is about an information<br>
+                technology company that offers a<br>
+                 range of products and services,<br>
+                  including cloud applications,<br>
+                  cloud infrastructure, and <br>
+                  database management systems<br>
+               </p>
+                </p>
+                <button class="btn btn-primary m-4">Read More</button>
+            </div>
+        </div>
+
+        </div>
+
+ <!--START CONTACT SECTION-->
+ <section id="4" class="contact">
+    <div>
+        <h2>Here are my social Media Handles</h2>
+        <p><i>Thanks In Advance....!!!</i></p>
+    </div>
+    <br>
+    <br>
+    <div>
+       
+            <p style="color: aliceblue;"> Let's get in touch. send me a message:</p>
+
+           
+             <p><input class="input" type="text" placeholder="Name" required name="Name"></p>
+             <p><input class="input" type="text" placeholder="Email" required name="Email"></p>
+             <p><button class="submit" type="submit"><i class="bi bi=send"></i>SUBMIT</button></p>
+             </form>
+           </div>
+        </section>
+ <!--end of contact section-->
+</body>
+</html>

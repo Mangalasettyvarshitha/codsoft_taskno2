@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+hr{
+    width: 70%;
+    align: center;
+}
+h1,
+h2 {
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+ /* nav */
+ .nav{
+    display: flex;
+    /*justify-content: flex-ends; */
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    background: linear-gardient black;
+ }
+.top{
+    margin-left: 750px;
+ }
+
+.profile img{
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 60px;
+    width: 50px;
+    border-radius: 50%;
+}
+.nav-list {
+    display: flex;
+    align-items: right;
+    margin-right: 10px;
+}
+.nav-list a{
+    display: block;
+    font-size: 23px;
+    color: #1f1f1f;
+    padding:15px;
+}
+.nav-list a:hover{
+    color:white;
+}
+ /* welcome section */
+ .flex{
+    display: flex;
+    margin-top: 110px;
+ }
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    width: auto;
+    height: 100vh;
+    color: black;
+    background-image: url("https://www.newgenapps.com/hubfs/Imported_Blog_Media/Website-Design-Background-Aug-21-2023-04-28-29-3461-PM.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    padding-top: 0px;
+} 
+.text{
+    margin-left: 100px;
+}
+.welcome-section p{
+    font-size: 20px;
+    font-style: italic;
+}
+.profile-main{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid ;
+}
+.btn{
+    background: linear-gradient(black);
+    margin: 80px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(6, 19, 22);
+    border-radius: 20px;
+    border: none;
+    display: block;
+}
+.btn:hover{
+    background: rgba(255, 255, 255, 0.4);
+    color: white;
+    text-decoration: none;
+}
+.about{
+    margin-top:0px;
+    padding-top: 0px;
+    width: auto;
+    height: 100vh;
+    color: rgb(24, 19, 19);
+    background-color: rgb(245, 248, 251);
+}
+.Link{
+    color: aquamarine;
+    font-weight: bold;
+}
+.about-head{
+    margin-top:0px;
+    padding-top: 0px;
+    margin-bottom:50px;
+  }
+
+.abt{
+    display: grid;
+    padding: 20px;
+    text-align: justify;
+    color: black;
+}
+.about p{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skills-head {
+    margin-top: 100px;
+    margin-bottom:5px;
+}
+
+.skill-buttons {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center align buttons */
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* Add margin on top if needed */
+    color:black;
+    
+}
+
+.skill-btn {
+    padding: 10px 20px; /* Adjust padding as needed */
+    
+}
+
+
+ /* contact section */
+ .contact-head{
+    margin-top:100px;
+    margin-bottom:50px;
+  }
+
+.contact{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    background: linear-gradient(90deg, #ced2d9, #243b55 100%);
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.handles{
+    justify-content: center;
+    text-decoration: none;
+}
+.handles a{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20px;
+}
+.input{
+    border: none;
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.submit{
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.btn{
+    background: linear-gradient(black);
+    margin: 80px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(6, 19, 22);
+    border-radius: 20px;
+    border: none;
+    display: block;
+}
+.btn:hover{
+    background: rgba(255, 255, 255, 0.4);
+    color: white;
+    text-decoration: none;
+}
+.icons{
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  margin: 10px;
+  gap: 20px;
+} 
+
+
+/* Basic styling for the nav bar */
+nav {
+    background-color: #333;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-bar-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.nav-bar-items li {
+    display: inline-block;
+}
+
+.nav-bar-items li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-bar-items li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Add spacing for sections */
+section {
+    margin-top: 100px; /* To avoid content hiding behind the fixed navbar */
+}
+
+.bg-container-3 {
+    background-color: white;
+    text-align: center;
+    color: black;
+    height: auto; /* Allow height to adjust based on content */
+    padding: 20px;
+}
+
+.service-head {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.services {
+    display: flex; /* Use flexbox for side-by-side layout */
+    justify-content: center; /* Center align services */
+    gap: 20px; /* Space between services */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.service {
+    display: flex; /* Keep this flex to allow for alignment */
+    flex-direction: column; /* Stack elements vertically */
+    padding: 20px; /* Adjust padding */
+    background-color: rgb(44, 41, 92);
+    color: white;
+    border-radius: 10px; /* Rounded corners */
+    width: 300px; /* Fixed width for consistent sizing */
+    margin-bottom: 50px;
+}
+.service-btn{
+        background: linear-gradient(black);
+  margin: 80px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(6, 19, 22);
+  border-radius: 20px;
+  border: none;
+  display: block;
+}
+
